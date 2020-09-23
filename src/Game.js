@@ -3,8 +3,8 @@ import './index.css'
 
 const Game = () => {
 
-    const [cellSize, setCellSize] = useState(8)
-    const [canvasWidth, setCanvasWidth] = useState(1500)
+    const [cellSize, setCellSize] = useState(3)
+    const [canvasWidth, setCanvasWidth] = useState(1800)
     const [canvasHeight, setCanvasHeight] = useState(750)
     const dead = `#000000`
     const alive = `#FFFFFF`
